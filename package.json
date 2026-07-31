@@ -1,0 +1,15 @@
+{
+  "name": "board-api-automation",
+  "version": "1.0.0",
+  "description": "Playwright API automation for the Boards/Lists/Users backend",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install --with-deps chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "dotenv": "^16.4.5"
+  }
+}
