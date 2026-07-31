@@ -10,6 +10,10 @@ Playwright API test project that automates the Boards backend endpoints:
 - `DELETE /api/boards/:id`
 - `DELETE /api/users/:id`
 
+## Playwright HTML Report 
+<img width="1842" height="1029" alt="image" src="https://github.com/user-attachments/assets/3e0834ea-8a96-4654-9f7a-2ba1d2108f38" />
+
+
 Tests run as one serial flow (`tests/api.spec.ts`) since each step depends on
 data (tokens, board id) produced by the previous step: sign up → log in →
 create board → create lists → delete a list → delete the board → delete the
